@@ -1,6 +1,6 @@
 #!/bin/sh
-SLEEP_BASE_INTERVAL=5
-SLEEP_RANDOM_INTERVAL=10
+SLEEP_BASE_INTERVAL=2
+SLEEP_RANDOM_INTERVAL=5
 if [[ -f "wolnelektury.json" ]]; then
   echo "Skipping main books list..."
 else
